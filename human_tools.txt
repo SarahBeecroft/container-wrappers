@@ -1,14 +1,8 @@
 docker://ubuntu:18.04
-- ls
-- pwd
 
  docker://ubuntu:16.04
  - hostname 
 -  whoami   
-
-#docker://centos:7
-#- mpirun
-#- gcc
 
 #If there are any tools that you do no wish to download, simply add a # at the front of the line (just like this line has!)
 biocontainers/bamtools
@@ -29,7 +23,6 @@ marcusczi/cellranger_clean
 genomicpariscentre/cutadapt
 biowardrobe2/deeptools
 biocontainers/delly
-biocontainers/diamond-aligner
 biocontainers/fastqc
 genomicpariscentre/featurecounts
 biocontainers/freebayes
@@ -45,7 +38,9 @@ biocontainers/plink
 biocontainers/plink1.9
 biocontainers/poretools
 pegi3s/qualimap
+rstudio/r-base
 biocontainers/rna-star
+rstudio/rstudio-server-pro
 biocontainers/salmon
 jhart99/sambamba
 biocontainers/samtools
