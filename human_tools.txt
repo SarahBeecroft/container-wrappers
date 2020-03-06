@@ -1,3 +1,15 @@
+docker://ubuntu:18.04
+- ls
+- pwd
+
+ docker://ubuntu:16.04
+ - hostname 
+-  whoami   
+
+#docker://centos:7
+#- mpirun
+#- gcc
+
 #If there are any tools that you do no wish to download, simply add a # at the front of the line (just like this line has!)
 biocontainers/bamtools
 johnfonner/basemount
