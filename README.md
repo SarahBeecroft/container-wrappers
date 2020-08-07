@@ -14,6 +14,10 @@ Edit the first few lines of the `setup.sh` script to provide values for the foll
 * `wrapdir`: location for application wrapper scripts
 * `workdir`: work directory for production, where data are stored (can be comma separated list)
 
+For Nimbus, additional steps are required:
+* install modules
+* edit the `SINGULARITY_CACHEDI` and `SINGULARITY_CACHEDIR` variables in `setup.sh` so that your `$HOME` directory doesn't get filled with cache files.
+
 Write a text file, *e.g.* `list_apps`, of this form:
 
 ```
