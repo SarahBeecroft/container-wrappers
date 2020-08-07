@@ -16,7 +16,17 @@ Edit the first few lines of the `setup.sh` script to provide values for the foll
 
 For Nimbus, additional steps are required:
 * install modules
-* edit the `SINGULARITY_CACHEDI` and `SINGULARITY_CACHEDIR` variables in `setup.sh` so that your `$HOME` directory doesn't get filled with cache files.
+    ```
+    wget https://sourceforge.net/projects/modules/files/Modules/modules-4.5.2/modules-4.5.2.tar.gz
+    tar -xzvf modules-4.5.2.tar.gz
+    cd modules-4.5.2
+    ./configure
+    make
+    sudo make install
+    ```
+    You may need to install dependecies with  `sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev` if you run          into issues during installation.
+    
+* edit the `SINGULARITY_CACHEDIR` and `SINGULARITY_CACHEDIR` variables in `setup.sh` so that your `$HOME` directory doesn't get filled with cache files.
 
 Write a text file, *e.g.* `list_apps`, of this form:
 
