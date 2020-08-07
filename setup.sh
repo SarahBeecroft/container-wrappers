@@ -7,7 +7,7 @@ imagedir="/data/work/wrappers-sgl/images"
 wrapdir="/data/work/wrappers-sgl/wraps"
 # production directory where all data/analyses are
 # can also be a comma separated list 
-workdir="/data/work,/data/db"
+# workdir="/data/work,/data/db"
 
 
 if [ $# -eq 0 ] ; then
@@ -64,7 +64,7 @@ cat << EOM
 
 All done!
 
-For proper functioning of this setup, ensure these two definitions are in your ~/.bash_profile :
+For proper functioning of this setup, ensure these two definitions are in your ~/.bash_profile or ~/.bashrc :
 
 ##############################
 export PATH=\$PATH:$wrapdir
