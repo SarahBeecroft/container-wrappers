@@ -47,13 +47,16 @@ Finally run the script:
 At the end of the setup, the script will advise on a couple of variable definitions to be added in your `~/.bash_profile`, something like:
 
 ```
-For proper functioning of this setup, ensure these two definitions are in your ~/.bash_profile :
+For proper functioning of this setup, ensure these two definitions are in your ~/.bash_profile or ~/.bashrc file:
 
 ##############################
 export PATH=$PATH:[..]
 export SINGULARITY_BINDPATH=$SINGULARITY_BINDPATH,[..]
 ##############################
 ```
+
+Then, source the file with 
+`source ~/.bash_profile` or `source ~/.bashrc`
 
 
 ## Current known limitations
