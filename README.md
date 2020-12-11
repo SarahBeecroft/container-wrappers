@@ -8,7 +8,8 @@ Find us on [GitHub](https://github.com/marcodelapierre/container-wrappers)
 
 
 ## Quick start
-
+`git clone https://github.com/SarahBeecroft/container-wrappers.git`
+`cd container-wrappers`
 Edit the first few lines of the `setup.sh` script to provide values for the following variables:
 * `imagedir`: location for downloaded container images
 * `wrapdir`: location for application wrapper scripts
@@ -25,6 +26,7 @@ For Nimbus, additional steps are required:
     sudo make install
     ```
     You may need to install dependecies with  `sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev dejagnu` if you run          into issues during installation.
+   
     
 * edit the `SINGULARITY_CACHEDIR` and `SINGULARITY_CACHEDIR` variables in `setup.sh` so that your `$HOME` directory doesn't get filled with cache files.
 
