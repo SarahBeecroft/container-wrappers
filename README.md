@@ -24,7 +24,7 @@ For Nimbus, additional steps are required:
     make
     sudo make install
     ```
-    You may need to install dependecies with  `sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev` if you run          into issues during installation.
+    You may need to install dependecies with  `sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev dejagnu` if you run          into issues during installation.
     
 * edit the `SINGULARITY_CACHEDIR` and `SINGULARITY_CACHEDIR` variables in `setup.sh` so that your `$HOME` directory doesn't get filled with cache files.
 
